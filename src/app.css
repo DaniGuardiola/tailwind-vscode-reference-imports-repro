@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@reference "#theme.css";
+
+.example {
+  color: var(--color-brand);
+}

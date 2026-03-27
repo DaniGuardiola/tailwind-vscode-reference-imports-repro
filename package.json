@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-vscode-reference-imports-repro",
+  "private": true,
+  "type": "module",
+  "imports": {
+    "#theme.css": "./src/theme.css"
+  },
+  "scripts": {
+    "build": "postcss src/app.css -o dist/app.css"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.1",
+    "postcss": "^8.5.8",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.2.1"
+  }
+}
